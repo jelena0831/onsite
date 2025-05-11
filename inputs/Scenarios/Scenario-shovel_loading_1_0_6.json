@@ -1,0 +1,50 @@
+{
+    "SceneName": "shovel_loading_30",
+    "SceneType": "loading",
+    "dt": 0.1,
+    "CntVehicle": 0,
+    "TrajSegmentInfo": [],
+    "x_min": -74.3310787122928,
+    "x_max": 452.462891739322,
+    "y_min": -854.441163075121,
+    "y_max": -367.975917634156,
+    "max_t": 150,
+    "goal": {
+        "x": [
+            21.50390293290696,
+            15.55754976292962,
+            25.592020737266346,
+            31.538373907243688
+        ],
+        "y": [
+            -710.8767314775739,
+            -705.5250136245943,
+            -694.3756014308868,
+            -699.7273192838664
+        ],
+        "head": [
+            0.8379812250083916
+        ]
+    },
+    "ego_info": {
+        "TrajSetToken": "ego",
+        "VehicleShapeInfo": {
+            "vehicle_type": "MineTruck_NTE200",
+            "length": 13.4,
+            "width": 6.7,
+            "height": 6.9,
+            "min_turn_radius": 14.2,
+            "wheel_base": 5.6,
+            "locationPoint2Head": 9.8,
+            "locationPoint2Rear": 3.8
+        },
+        "start_states": {
+            "x": 278.5849582,
+            "y": -621.4348779,
+            "yaw_rad": -2.29849239017562,
+            "v_mps": 6,
+            "yawrate_radps": 0,
+            "acc_mpss": 0
+        }
+    }
+}
